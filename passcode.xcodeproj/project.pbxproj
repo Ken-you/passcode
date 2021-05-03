@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DB7CF17A263FA53100DE0370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF179263FA53100DE0370 /* AppDelegate.swift */; };
 		DB7CF17C263FA53100DE0370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF17B263FA53100DE0370 /* SceneDelegate.swift */; };
-		DB7CF17E263FA53100DE0370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF17D263FA53100DE0370 /* ViewController.swift */; };
 		DB7CF181263FA53100DE0370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CF17F263FA53100DE0370 /* Main.storyboard */; };
 		DB7CF183263FA53100DE0370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7CF182263FA53100DE0370 /* Assets.xcassets */; };
 		DB7CF186263FA53100DE0370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CF184263FA53100DE0370 /* LaunchScreen.storyboard */; };
+		DB7CF18F263FA55D00DE0370 /* passcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF18E263FA55D00DE0370 /* passcodeViewController.swift */; };
+		DB7CF194263FE97D00DE0370 /* passViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CF193263FE97D00DE0370 /* passViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB7CF176263FA53100DE0370 /* passcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7CF179263FA53100DE0370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB7CF17B263FA53100DE0370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB7CF17D263FA53100DE0370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB7CF180263FA53100DE0370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB7CF182263FA53100DE0370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB7CF185263FA53100DE0370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB7CF187263FA53100DE0370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7CF18E263FA55D00DE0370 /* passcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passcodeViewController.swift; sourceTree = "<group>"; };
+		DB7CF193263FE97D00DE0370 /* passViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				DB7CF179263FA53100DE0370 /* AppDelegate.swift */,
 				DB7CF17B263FA53100DE0370 /* SceneDelegate.swift */,
-				DB7CF17D263FA53100DE0370 /* ViewController.swift */,
 				DB7CF17F263FA53100DE0370 /* Main.storyboard */,
+				DB7CF193263FE97D00DE0370 /* passViewController.swift */,
+				DB7CF18E263FA55D00DE0370 /* passcodeViewController.swift */,
 				DB7CF182263FA53100DE0370 /* Assets.xcassets */,
 				DB7CF184263FA53100DE0370 /* LaunchScreen.storyboard */,
 				DB7CF187263FA53100DE0370 /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7CF17E263FA53100DE0370 /* ViewController.swift in Sources */,
+				DB7CF18F263FA55D00DE0370 /* passcodeViewController.swift in Sources */,
+				DB7CF194263FE97D00DE0370 /* passViewController.swift in Sources */,
 				DB7CF17A263FA53100DE0370 /* AppDelegate.swift in Sources */,
 				DB7CF17C263FA53100DE0370 /* SceneDelegate.swift in Sources */,
 			);
